@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import layout from 'ember-collection/template';
+import layout from 'ember-collection/components/ember-collection/template';
 import { translateCSS } from '../utils/translate';
 import needsRevalidate from '../utils/needs-revalidate';
 var decodeEachKey = Ember.__loader.require('ember-htmlbars/utils/decode-each-key')['default'];
